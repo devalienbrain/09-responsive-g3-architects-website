@@ -372,4 +372,12 @@ footer {
     /* object-fit: contain; */
     margin-left: 2rem;
   }
+
+  .facts-card {
+    margin-bottom: 2rem;
+  }
+
+  .sponsor-img-contain {
+    padding: 1rem;
+  }
 }
