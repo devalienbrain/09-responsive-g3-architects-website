@@ -331,6 +331,10 @@ footer {
     flex-direction: column;
   }
 
+  .quick-list-sec {
+    flex-direction: column-reverse;
+  }
+
   .quick-list-img {
     display: grid;
     grid-template-columns: 1fr;
@@ -366,6 +370,10 @@ footer {
     text-align: center;
   }
 
+  .feature-contents {
+    margin: 0;
+  }
+
   .feature-img img {
     width: 90%;
     height: 90%;
@@ -379,5 +387,9 @@ footer {
 
   .sponsor-img-contain {
     padding: 1rem;
+  }
+
+  .feature-img img {
+    margin-left: 2rem;
   }
 }
