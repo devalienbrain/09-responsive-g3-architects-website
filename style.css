@@ -320,7 +320,6 @@ footer {
   }
 
   nav,
-  nav ul,
   .banner,
   .quick-list-sec,
   .feature-sec,
@@ -333,6 +332,10 @@ footer {
 
   .quick-list-sec {
     flex-direction: column-reverse;
+  }
+
+  nav ul {
+    gap: 1.5rem;
   }
 
   .quick-list-img {
@@ -390,6 +393,24 @@ footer {
   }
 
   .feature-img img {
-    margin-left: 2rem;
+    width: 80%;
+    margin-left: 3rem;
+  }
+
+  /* 10 Years experience Responsive part starts */
+
+  .experience-container {
+    padding: 1rem 1.8rem;
+    bottom: 4rem;
+  }
+
+  .yr-10 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .experience {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
